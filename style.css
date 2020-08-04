@@ -1,0 +1,299 @@
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+
+.navbar a 
+{
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 4px 20px;
+  text-decoration: none;
+  font-size: 30px;
+  border-left: inset;
+  border-right: inset;
+  border-bottom: inset;
+  transition: .6s all;
+  margin-right: 5.5px;
+}
+
+.navbar a:hover
+{
+	background-color: #333;
+	color: white;
+	border-bottom:5px solid red;
+	border-radius: 10px;
+}
+
+.navbar .active
+{
+	background-color: #333;
+	color: white;
+	border-radius: 10px;
+	border-bottom: red;
+}
+
+
+.navbar .activ
+{
+	background-color: yellowgreen;
+	border-radius: 10px;
+	float: left;
+}
+
+@media screen and (max-width: 650px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+
+.content1 
+{
+	width: 1450px;
+	background-color: #fff9;
+	color: #000;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.content1 p
+{
+	font-size: 30px;
+	margin: 10px 10 0;
+	padding: 30px;
+	border: 2px solid deeppink;
+}
+
+
+.container
+{
+	width: 1280px;
+	min-height: 25px;
+    background:linear-gradient(90deg,greenyellow,rgb(255, 145, 2));
+	margin: 40px auto 0;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .box
+{
+	position: relative;
+	width: 1270px;
+	height: 700px;
+	background:#ff0;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	overflow: hidden;
+	border: 5px solid black;
+}
+.container .box .imgbox
+{
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .imgbox img
+{
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .imgbox img
+{
+	transform: scale(1.1);
+}
+
+.container .box .details
+{
+	position: absolute;
+	top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.container .box:hover .details
+{
+	transform: scaleY(1);
+}
+
+.container .box .details .content
+{
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+}
+
+.container .box .details .content h1
+{
+	margin:0;
+	padding: 0;
+	font-size:50px;
+	color: #ff0;
+}
+
+.container .box .details .content p
+{
+	margin: 10px 0 0;
+	padding: 30px;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 0px;
+  height: 50px;
+  text-align: center; 
+  background: darkslategray; 
+  width:100%;
+}
+
+.footer a
+{
+	font-style: Century Gothic;
+	font-size: 30px;
+	color: white;
+}
+
+.ss 
+{
+	width: 1000px;
+	height: 500px;
+	margin: 70px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: 10px solid yellow;
+	overflow: hidden;
+}
+
+/* ____________________________________________________________ */
+
+
+@media screen and (max-width:1295px)
+{ 
+   
+  .container
+  {
+	width: auto;
+	height: auto;
+	min-height: 575px;
+	max-height: 575px; 
+    background:linear-gradient(90deg,red,yellowgreen);
+	margin: 40px auto 0;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+  }	
+ 
+  .container .box
+  {
+	position: relative;
+	width: auto;
+	height: auto;
+	min-height: 550px;
+	max-height: 550px;
+	background:#ff0;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	overflow: hidden;
+	border: 5px solid black;
+  }
+
+  .content1 
+  { 
+	width: auto;
+	background-color: #fff9;
+	color: #000;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 80px;
+	text-align: center;
+  }
+
+  .container .box .details .content h1
+{
+	margin:0;
+	padding: 0;
+	font-size:30px;
+	color: #ff0;
+}
+
+.container .box .details .content p
+{
+	font-size: 25px;
+	margin: 10px 0 0;
+	padding: 10px;
+}
+}  
+
+@media screen and (max-width:1010px)
+{ 
+   
+  .container
+  {
+	width: auto;
+	height: auto;
+	max-height: 525px; 
+    background:linear-gradient(90deg,red,yellowgreen);
+	margin: 40px auto 0;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+  }	
+ 
+  .container .box
+  {
+	position: relative;
+	width: auto;
+	height: auto;
+	max-height: 500px;
+	background:#ff0;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	overflow: hidden;
+	border: 5px solid black;
+  }
+
+  .content1 
+  { 
+	width: auto;
+	background-color: #fff9;
+	color: #000;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 80px;
+	text-align: center;
+  }
+
+  .container .box .details .content h1
+{
+	margin:0;
+	padding: 0;
+	font-size:10px;
+	color: #ff0;
+}
+
+.container .box .details .content p
+{
+	font-size: auto;
+	margin: 10px 0 0;
+	padding: 10px;
+}
+}  

@@ -1,0 +1,57 @@
+body
+{ 
+ margin: 0;
+ padding: 0;
+ background-image: linear-gradient(45deg,rgb(255, 0, 0),yellowgreen,rgb(255, 0, 149));
+ background-size: 500% 500%;
+ background-position: center;
+ animation: bganimation 10s infinite;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ background-repeat: no-repeat;
+}
+
+@keyframes bganimation
+{
+    0%
+    {
+        background-position: 0% 50%;
+    }
+    50%
+    {
+        background-position: 100% 50%;
+    }
+    100%
+    {
+        background-position: 0% 50%;
+    }
+}
+.sign-up-form
+{
+ width: 300px;
+ box-shadow: 0 0 33px rgba(100,100,100,100000);
+ background: #fff;
+ padding: 20px;
+ margin: 3% auto 0;
+ text-align: center;  
+ border-radius: 20px; 
+}
+
+.sign-up-form h2
+{
+    color: #1c8adb;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    margin:7px -10px;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}

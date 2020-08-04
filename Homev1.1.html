@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Top 5 Marvel Superheroes</title>
+    <meta name="viewport" contennt="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <style>
+      html {
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(
+          125deg,
+          #ff3c00,
+          #004e92,
+          rgb(153, 255, 0)
+        );
+        background-size: 500% 1500%;
+        height: 100%;
+        animation: bganimation 15s infinite;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+      @keyframes bganimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      .mh {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background: #333;
+        width: auto;
+      }
+
+      h1 {
+        margin: 0;
+        padding: 0;
+        color: #000;
+        font-size: 6em;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      h1 span {
+        display: table-cell;
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+        animation: animate 2s linear infinite;
+      }
+
+      h1 span:nth-child(1) {
+        animation-delay: 1s;
+      }
+      h1 span:nth-child(2) {
+        animation-delay: 1.5s;
+      }
+      h1 span:nth-child(3) {
+        animation-delay: 1.75s;
+      }
+      h1 span:nth-child(4) {
+        animation-delay: 2.25s;
+      }
+      h1 span:nth-child(5) {
+        animation-delay: 2.5s;
+      }
+      h1 span:nth-child(6) {
+        animation-delay: 3s;
+      }
+      h1 span:nth-child(7) {
+        animation-delay: 4s;
+      }
+      h1 span:nth-child(8) {
+        animation-delay: 5s;
+      }
+
+      @keyframes animate {
+        0%,
+        100% {
+          color: #fff;
+          filter: blur(2px);
+          text-shadow: 0 0 10px #00b3ff, 0 0 20px #c8ff00, 0 0 40px #00b3ff,
+            0 0 80px #00b3ff, 0 0 12px #00b3ff, 0 0 60px #ff00aa,
+            0 0 30px #00b3ff, 0 0 40px #00b3ff, 0 0 50px #00b3ff;
+        }
+        5%,
+        95% {
+          color: rgb(182, 24, 24);
+          filter: blur(0px);
+          text-shadow: 0 0 1px none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mh">
+      <h1>
+        <span style="font-family: 'Times New Roman', Times, serif;">Ma</span>
+        <span style="font-family: 'Times New Roman', Times, serif;">r</span>
+        <span style="font-family: 'Times New Roman', Times, serif;">v</span>
+        <span style="font-family: 'Times New Roman', Times, serif;">el</span>
+        <span style="font-family: 'Times New Roman', Times, serif;">H</span>
+        <span style="font-family: 'Times New Roman', Times, serif;">e</span>
+        <span style="font-family: 'Times New Roman', Times, serif;">ro</span>
+        <span style="font-family: 'Times New Roman', Times, serif;">s</span>
+      </h1>
+    </div>
+
+    <div class="navbar">
+      <a href="contact.html">CONTACT</a>
+      <a
+        href="https://www.marvel.com/"
+        title="This leads to official marvel page(Big Fan)"
+        >ABOUT</a
+      >
+      <a
+        class="active"
+        href=""
+        style="border-left: none; border-bottom: outset;"
+        >HOME</a
+      >
+      <a class="activ" href="signup1.1.html">Signup</a>
+      <audio
+        controls
+        autoplay
+        loop
+        style="
+          float: right;
+          background-color: #333;
+          border-radius: 10px;
+          border-left: outset;
+          border-bottom: outset;
+          width: 100%;
+          max-width: auto;
+        "
+      >
+        <source src="LC.mp3" type="audio/mp3" />
+      </audio>
+    </div>
+    <!-- ________________________slideshow section_________________________________ -->
+    <!-- ________________________slideshow section_________________________________ -->
+    <div class="w3-content w3-section" style="max-width: 1920px;">
+      <img
+        class="mySlides w3-animate-fading"
+        src="avenger_symbol.jpg"
+        style="
+          width: 100%;
+          margin-top: 70px;
+          height: 700px;
+          border-style: outset;
+        "
+      />
+      <img
+        class="mySlides w3-animate-fading"
+        src="at.jpg"
+        style="
+          width: 100%;
+          margin-top: 70px;
+          height: 700px;
+          border-style: outset;
+        "
+      />
+      <img
+        class="mySlides w3-animate-fading"
+        src="ca.jpg"
+        style="
+          width: 100%;
+          margin-top: 70px;
+          height: 700px;
+          border-style: outset;
+        "
+      />
+      <img
+        class="mySlides w3-animate-fading"
+        src="as.jpg"
+        style="
+          width: 100%;
+          margin-top: 70px;
+          height: 700px;
+          border-style: outset;
+        "
+      />
+      <img
+        class="mySlides w3-animate-fading"
+        src="hbg.jpg"
+        style="
+          width: 100%;
+          margin-top: 70px;
+          height: 700px;
+          border-style: outset;
+        "
+      />
+    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+
+        setTimeout(carousel, 9000);
+      }
+    </script>
+    <div class="content1">
+      <p>
+        Marvel Comics, American media and entertainment company that was widely
+        regarded as one of the “big two” publishers in the comic industry. Its
+        parent company, Marvel Entertainment, is a wholly owned subsidiary of
+        the Disney Company. Its headquarters are in New York City.
+      </p>
+      <p>
+        Marvel Fans here we list down all time favourite Superheroes of Marvel
+        Cinematic Universe.
+      </p>
+    </div>
+    <!-- </div> -->
+    <!-- _____________________________________image hover____________________________________ -->
+    <!-- _____________________________________image hover____________________________________ -->
+    <div class="container">
+      <div class="box">
+        <div class="imgbox">
+          <img src="irm.jpg" alt="IRON MAN" />
+        </div>
+        <div class="details">
+          <div class="content">
+            <h1>IRON MAN</h1>
+            <p>
+              Anthony Edward "Tony" Stark was a billionaire industrialist, a
+              founding member of the Avengers, and the former CEO of Stark
+              Industries. A brash but brilliant inventor, Stark was
+              self-described as a genius, billionaire, playboy, and
+              philanthropist. With his great wealth and exceptional technical
+              knowledge, Stark was one of the world's most powerful men
+              following the deaths of his parents and enjoyed the playboy
+              lifestyle for many years until he was kidnapped by the Ten Rings
+              in Afghanistan, while demonstrating a fleet of Jericho missiles.
+              With his life on the line, Stark created an armored suit which he
+              used to escape his captors. Upon returning home, he utilized
+              several more armors to use against terrorists, as well as Obadiah
+              Stane who turned against Stark. Stark enjoyed the fame that came
+              with his new secret identity and decided to share it with the
+              world, publicly revealing himself as Iron Man.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <div class="imgbox">
+          <img src="thorr.jpg" alt="THOR" />
+        </div>
+        <div class="details">
+          <div class="content">
+            <h1>Thor</h1>
+            <p>
+              Thor Odinson is the Asgardian God of Thunder, superhero,
+              self-proclaimed protector of Earth and the king of Asgard. Thor
+              made a name for himself as the mightiest warrior on his homeworld
+              and subsequently became well known for his actions on Earth, which
+              included acting as a founding member of the Avengers. He is the
+              son of the late Odin Borson and the late Frigga, and the adopted
+              brother of the late Loki Laufeyson.
+            </p>
+            <!-- <p>Thor wielded the mystical war hammer Mjölnir, which channeled his God of Thunder abilities until it was destroyed by his sister Hela. In an attempt to flee his sister, Thor found himself stranded on Sakaar where he was forced to be a champion in the Grandmaster's games. After escaping Sakaar, he brought about Ragnarök with the help of the Revengers and destroyed his home and Hela with it. He lead the Asgardian refugees away from the destruction in hunt for a new home.</p> -->
+            <!-- <p>Thanos intercepted their vessel and killed a large amount of the refugees along with Loki, Thor survived the carnage and was found drifting in space by the Guardians of the Galaxy. Bent on getting revenge on Thanos, Thor went with Rocket and Groot to Nidavellir so that Eitri could forge him a weapon powerful enough to kill Thanos and then returned to Earth to join the battle. Thanos was successful in his mission and decimated half of existence.</p> -->
+            <!-- <p>Thor was devastated and outraged by what Thanos had done and, upon finding out that the Mad Titan had destroyed the Infinity Stones, decapitated him as he no longer had any use. Over the next five years, Thor sunk into a depression, he settled the surviving refugees in New Asgard and ruled as their king but became a recluse, overweight drunk who the Asgardians barely saw.</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <div class="imgbox" alt="HULK">
+          <img src="hulk1.jpg" />
+        </div>
+        <div class="details">
+          <div class="content">
+            <h1>HULK</h1>
+            <p>
+              Robert Bruce Banner, M.D., Ph.D., is a renowned scientist and a
+              founding member of the Avengers. As someone who was highly
+              respected for his work regarding biochemistry, nuclear physics,
+              and gamma radiation, he was commissioned by Thaddeus Ross to
+              recreate the Super Soldier Serum which created Captain America,
+              although Ross elected not to inform Banner what he was creating.
+              However, when an exposure to high levels of gamma radiation
+              instead of vita radiation went awry, the mild-mannered scientist
+              had found that when angered, provoked or excited, he would
+              transform into the huge, rage-fueled, nearly mindless creature
+              known as Hulk.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <div class="imgbox">
+          <img src="sm.jpg" alt="SPIDER MAN" />
+        </div>
+        <div class="details">
+          <div class="content">
+            <h1>Spider Man</h1>
+            <p>
+              Peter Benjamin Parker is a high school student who gained
+              spider-like abilities, fighting crime across New York City as the
+              alter ego Spider-Man, hoping someday, he will live up to his
+              heroes in the Avengers. While Parker juggled all his continued
+              superhero duties with the demands of his high-school life, he was
+              approached by Tony Stark who recruited Spider-Man to join the
+              Avengers Civil War, putting Spider-Man into the brief conflict
+              with his personal hero, Captain America. Parker then agreed and
+              was given his new suit as well as brand new Stark technology in
+              exchange for all his help, although Stark still did not make him
+              an official member of the Avengers and instead returned Parker
+              back home to continue his own hero work.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <div class="imgbox">
+          <img src="ca1.jpg" alt="CAPTAIN AMERICA" />
+        </div>
+        <div class="details">
+          <div class="content">
+            <h1>Captain America</h1>
+            <p>
+              Captain Steven Grant "Steve" Rogers is a World War II veteran, a
+              founding member of the Avengers, and Earth's first superhero.
+              Rogers had suffered from numerous health problems, and upon
+              America's entry into World War II, was rejected from the service
+              within United States Army despite several attempts to enlist.
+              Rogers was the only recipient of the Super Soldier Serum developed
+              by Abraham Erskine under the Strategic Scientific Reserve.
+              Determined to serve, Rogers ultimately volunteered for the Project
+              Rebirth, which enhanced the frail Rogers' body. Mistrusted by
+              Chester Phillips, the head of the SSR, Rogers was relegated to
+              propaganda campaigns, and was given the new moniker of Captain
+              America.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- _____________________________________FOOTER___________________________ -->
+    <!-- _____________________________________FOOTER___________________________ -->
+    <div class="footer">
+      <a href="TermsofUse.html"><u>Terms and conditions</u></a>
+    </div>
+  </body>
+</html>

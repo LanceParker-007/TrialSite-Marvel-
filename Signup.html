@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup| </title>
+    </head>
+    <style>
+    body
+    {
+        margin: 0;
+        padding: 0;
+    }    
+    html
+    {
+     margin: 0;
+     padding: 0;
+     background-image: linear-gradient(125deg,#ee7752, #e73c7e, #23a6d5, #23d5ab);
+     background-size: 400% 400%;
+     height: 100%;
+     animation: bganimation 10s infinite;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+    }
+    @keyframes bganimation
+    {
+     0%
+     {
+        background-position: 0% 50%;
+     }
+     50%
+     {
+        background-position: 100% 50%;
+     }
+     100%
+     {
+        background-position: 0% 50%;
+     }
+    }
+    
+    .mh
+        {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            background: none;
+            width: auto;
+        }
+
+        h1
+        {
+            margin: 0;
+            padding: 0;
+            color: #000;
+            font-size: 6em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        } 
+
+        h1 span
+        {
+            display: table-cell;
+            font-size: 1em;
+            margin: 0;
+            padding: 0;
+            animation: animate 10s linear infinite;
+        }
+
+        h1 span:nth-child(1)
+        {
+            animation-delay: 1s;
+        }
+        h1 span:nth-child(2)
+        {
+            animation-delay: 2s;
+        }
+        h1 span:nth-child(3)
+        {
+            animation-delay: 3s;
+        }
+        h1 span:nth-child(4)
+        {
+            animation-delay: 4s;
+        }
+        h1 span:nth-child(5)
+        {
+            animation-delay: 5s;
+        }
+        h1 span:nth-child(6)
+        {
+            animation-delay: 6s;
+        }
+        h1 span:nth-child(7)
+        {
+            animation-delay: 7s;
+        }
+        h1 span:nth-child(8)
+        {
+            animation-delay: 8s;
+        }
+        h1 span:nth-child(9)
+        {
+            animation-delay: 9s;
+        }
+        
+
+        @keyframes animate
+        {
+            0%,100%
+            {
+                color: #fff;
+                filter: blur(2px);
+                text-shadow: 0 0 10px #00b3ff,
+                            0 0 20px #c8ff00,              
+                            0 0 40px #00b3ff,
+                            0 0 80px #00b3ff,
+                            0 0 12px #00b3ff,
+                            0 0 600px #ff00aa,
+                            0 0 300px #00b3ff,
+                            0 0 400px #00b3ff,
+                            0 0 500px #00b3ff;
+            }  
+            5%,95%
+            {
+                color: rgb(182, 24, 24);
+                filter: blur(0px);
+                text-shadow: 0 0 1px none;
+            }  
+        }
+   </style>
+   <body>
+<!-- <div class="sbg"> -->
+    <div class="mh">
+        <h1>
+            <span style="font-family: 'Times New Roman', Times, serif;">Ma</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">r</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">v</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">el</span>
+            <span style="font-family: 'Times New Roman', Times, serif;"> </span>
+            <span style="font-family: 'Times New Roman', Times, serif;">H</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">e</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">ro</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">s</span>
+        </h1>    
+    </div>  
+<form action="/action_page.php">
+ <fieldset style="text-align: center;">
+  <legend style="color: rgb(255, 208, 0); font-style: century gothic; text-align: center;" ><h1><u>Enter your details Hero</u></h1></legend>
+  <label for="fname" style="color: greenyellow; font-size: 40px;"> First name:</label>
+  <input type="text" id="fname" name="fname"  style="font-size: 30px; background-color: darkslategray; color:floralwhite;" name="text"><br><br>
+  <label for="lname" style="color: greenyellow; font-size: 40px;">Last name:</label>
+  <input type="text" id="lname" name="lname" style="font-size: 30px; background-color: darkslategray; color:floralwhite"><br><br>
+  <label for="email" style="color: greenyellow; font-size: 40px;">Email :</label>
+  <input type="email" id="email" name="email" style="font-size: 30px; background-color: darkslategray; color:floralwhite"><br><br>
+  <label for="pasword" style="color: greenyellow; font-size: 40px;">Password :</label>
+  <input type="password" id="pasword" name="pasword" style="font-size: 30px; background-color: darkslategray; color:floralwhite"><br><br>
+  <label for="birthday" style="color: greenyellow; font-size: 40px;">Date of Birth:</label>
+  <input type="date" id="birthday" name="birthday" style="font-size: 30px; background-color: darkslategray; color:floralwhite"><br><br>
+  <input type="submit" value="Submit" style="font-size: medium; background-color: slategrey;">
+ </fieldset>
+</form>
+<!-- <div> -->
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Signup</title>
+    <link  rel="stylesheet" href="styel.css">
+</head>
+<style>
+    .mh
+        {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            background: none;
+            width: auto;
+        }
+
+        h1
+        {
+            margin: 0;
+            padding: 0;
+            color: #000;
+            font-size: 3.6em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        } 
+
+        h1 span
+        {
+            display: table-cell;
+            font-size: 1em;
+            margin: 0;
+            padding: 0;
+            animation: animate 3s linear infinite;
+        }
+
+        h1 span:nth-child(1)
+        {
+            animation-delay: 1s;
+        }
+        h1 span:nth-child(2)
+        {
+            animation-delay: 1.5s;
+        }
+        h1 span:nth-child(3)
+        {
+            animation-delay: 2s;
+        }
+        h1 span:nth-child(4)
+        {
+            animation-delay: 2.5s;
+        }
+        h1 span:nth-child(5)
+        {
+            animation-delay: 3s;
+        }
+        h1 span:nth-child(6)
+        {
+            animation-delay: 3.5s;
+        }
+        h1 span:nth-child(7)
+        {
+            animation-delay: 4s;
+        }
+        h1 span:nth-child(8)
+        {
+            animation-delay: 4.5s;
+        }
+             
+
+        @keyframes animate
+        {
+            0%,100%
+            {
+                color: #fff;
+                filter: blur(2px);
+                text-shadow: 0 0 10px #00b3ff,
+                            0 0 20px #c8ff00,              
+                            0 0 40px #00b3ff,
+                            0 0 80px #00b3ff,
+                            0 0 12px #00b3ff,
+                            0 0 60px #ff00aa,
+                            0 0 30px #00b3ff,
+                            0 0 40px #00b3ff,
+                            0 0 50px #00b3ff;
+            }  
+            5%,95%
+            {
+                color: rgb(182, 24, 24);
+                filter: blur(0px);
+                text-shadow: 0 0 1px none;
+            }  
+        }
+        
+        .fb 
+        {
+         padding: 10px 25px;
+         margin-top: 20px;
+         background-color: #3B5998;
+         color: white;
+         font-size:20px;
+         border-radius: 10px;
+        }
+
+        .google 
+        {
+            padding: 10px 25px;
+            margin-top: 20px;
+            background-color: #dd4b39;
+            color: white;
+            font-size: 21px;
+            border-radius: 10px;
+        }
+   </style>
+<body>
+    <div class="mh">
+        <u><h1>
+            <span style="font-family: 'Times New Roman', Times, serif;">Ma</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">r</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">v</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">el</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">H</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">e</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">ro</span>
+            <span style="font-family: 'Times New Roman', Times, serif;">s</span>
+        </h1></u>    
+    </div>  
+    <form action="/action_page.php">
+    <div class="sign-up-form">
+        <h2>Sign Up</h2>
+        <input type="email" class="input-box" placeholder="Your Email" ><br><br>
+        <input type="password" class="input-box" placeholder="Your Password">   
+        <p><span><input type="checkbox"></span>* By logging in, you agree to our <a href="TermsofUse.html" >Terms of Use</a> and to receive emails & updates and acknowledge that you read our Privacy Policy.</a></p>   
+        <button type="button" class="sign-btn"><a href="Homev1.1.html">Sign up</a></button>
+        <br><br>
+        <hr>
+        <p class="or">OR</p>
+        <!-- <button type="button" class="sign-btn" style="border-style: hidden; font-size:20px; background: #4c8bf5 ;">Continue with Google</button>
+        <br><br>
+        <button type="button" class="sign-btn" style="border-style: hidden; font-size:20px;background: #3b5998;">Continue with Facebook</button> -->
+        <a href="#" class="fb btn">
+            <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+        </i> Login with Google+
+      </a>
+        <p style="margin-top: 20px;">Do you already have an account?<a href="#">Sign in</a></p>
+    </form>
+    </div>
+</body>
+</html>
